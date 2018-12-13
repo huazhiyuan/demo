@@ -9,7 +9,7 @@ public class Main{
             for(int i=0;i<cnt;i++){
                 int j=0;
                 while( sb.charAt(j)>=sb.charAt(j+1)){
-                    j++;
+                    //j++;
                 }
                 sb.deleteCharAt(j);
             }
